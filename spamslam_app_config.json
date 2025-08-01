@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "SpamSlam",
+    "slug": "spamslam",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#667eea"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.spamslam",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#667eea"
+      },
+      "package": "com.yourcompany.spamslam",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.INTERNET",
+        "android.permission.VIBRATE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "apiBaseUrl": "https://your-backend-url.com"
+    }
+  }
+}
