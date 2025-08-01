@@ -23,7 +23,7 @@ app.add_middleware(
 
 # Configure Gemini AI
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "your-gemini-api-key-here")
-genai.configure(api_key=GEMINI_API_KEY)
+genai.configure(api_key=AIzaSyAKAQWRYQQIE6x68Zz7X2Yu2lIgXU4hO2k)
 model = genai.GenerativeModel('gemini-pro')
 
 # Request/Response models
